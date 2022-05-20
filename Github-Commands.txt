@@ -1,0 +1,1 @@
+git init--To initialize git repository into your current workspace
