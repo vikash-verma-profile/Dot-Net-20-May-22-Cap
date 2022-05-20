@@ -1,1 +1,3 @@
 git init--To initialize git repository into your current workspace
+git add . ==>this will add all the new files or changes file to a batch so that we can commit these changes
+git commit -m "some message"=> this command will create a commit while will refer to all the files that are being pushed 
