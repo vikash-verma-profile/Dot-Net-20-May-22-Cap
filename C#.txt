@@ -1,0 +1,38 @@
+CLR=>common language Runtime
+
+Roles of CLR
+
+1.Running of code
+2.Memory management
+3.Compilation of code
+4.Garabage collection or error handling
+
+Comments=>
+
+1.Single Line  //
+2.Multi-Line Comments /* */
+
+Variable
+
+Operator
+Operand
+
+1+5
+
+
+
+Data Types
+
+1.Primitive types  -int,float,string,double
+2.User Defined types-class ,enum,structs
+
+
+C# Operators
+
+1.Arithematic Opeators  +,-.*,/,%
+2.Relational Opeators  <,<=,>,>=,==,!=
+3.Logical Opeators    &&,||,!
+4.Assignement Opeators =,+=,-=,/=.%=
+5.Bitwise Opeators   &,|,>>,<<,~,^
+6.Ternary Opeators   ?:
+7.Unary Operators   ++,--
