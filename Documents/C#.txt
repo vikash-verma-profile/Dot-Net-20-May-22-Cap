@@ -43,5 +43,17 @@ conditional statements
 if else 
 if else if
 
+switch 
 
 Write a program to Validate a number is Odd or even 
+
+
+Type Conversion
+
+string value==>integer value
+
+or in any case we can also do vice versa
+
+print all days of a week.
+1=>Monday
+2=>Tues
