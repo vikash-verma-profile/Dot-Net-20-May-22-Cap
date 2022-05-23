@@ -57,3 +57,27 @@ or in any case we can also do vice versa
 print all days of a week.
 1=>Monday
 2=>Tues
+
+
+Create a calculator
+where you will ask user what he want to do
+1.Add
+2.Sub
+3.Division
+4.Multiplication
+
+1
+Please enter 2 values
+4,5
+Sum of two number is 9
+5
+Enter a valid choice
+
+
+Loops
+
+for loop
+while loop
+do while loop
+
+for each loop

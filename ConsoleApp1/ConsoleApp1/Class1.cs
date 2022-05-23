@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Class1
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             //Switch
             //{}==>block
