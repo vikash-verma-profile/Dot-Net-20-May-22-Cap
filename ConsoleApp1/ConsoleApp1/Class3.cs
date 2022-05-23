@@ -16,11 +16,18 @@ namespace ConsoleApp1
             //    }
             //}
 
-            for (int row = 0; row < 5; row++)
+            for (int row = 0; row <= 9; row++)
             {
-                for (int col = 0; col < 5; col++)
+                for (int col = 0; col <= 9; col++)
                 {
-                    Console.Write("*");
+                    if (row == 0 || col == 0 || row == 9 || col == 9 || row == col || col==9-row+1)
+                    {
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        Console.Write(" ");
+                    }
                 }
                 Console.WriteLine();
             }
