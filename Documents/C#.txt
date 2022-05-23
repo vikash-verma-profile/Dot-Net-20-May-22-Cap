@@ -40,3 +40,8 @@ C# Operators
 
 conditional statements
 
+if else 
+if else if
+
+
+Write a program to Validate a number is Odd or even 

@@ -17,15 +17,19 @@ namespace ConsoleApp1
 
 
             //whether a number is positive or not
-            int positiveNumber = -5;
+            int positiveNumber = 0;
             Console.WriteLine();
             if (positiveNumber > 0)
             {
                 Console.WriteLine(positiveNumber +" is a positive Number");
             }
-            else
+            else if(positiveNumber<0)
             {
                 Console.WriteLine(positiveNumber + " is not a positive Number");
+            }
+            else
+            {
+                Console.WriteLine(positiveNumber + " is neither postive nor negative");
             }
         }
     }
