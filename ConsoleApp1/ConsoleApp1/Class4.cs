@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Class4
     {
-        public static void Main()
+        public static void Main5()
         {
             int[] ar = new int[5];
 
