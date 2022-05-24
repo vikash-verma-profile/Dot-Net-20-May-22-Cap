@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Class3
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             //for (int row = 0; row < 5; row++)
             //{
