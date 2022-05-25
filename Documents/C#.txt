@@ -86,3 +86,11 @@ Array
 1.Single Dimensions Array
 2.2D Dimensions Array
 3.Jagged Array==>Arrays of arrays
+
+class
+object
+functions
+
+static
+out and ref
+var and dynamic
