@@ -4,7 +4,7 @@ namespace ConsoleApp2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
 
             int[] ar = new int[5] { 1,2,2,3,3};
