@@ -6,7 +6,7 @@ namespace ConsoleApp2
 {
     class Class4
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             //var vs dynamic variable
 
