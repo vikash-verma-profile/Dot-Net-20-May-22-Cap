@@ -8,12 +8,18 @@ namespace ConsoleApp2
     {
 
         //Value Type and Reference Types
+
+        //out
         static void Main(string[] args)
         {
             int x=5, y= 6;
             Console.WriteLine("Before Swapping \na=" + x + "  b=" + y);
             Swap(ref x, ref y);
             Console.WriteLine("After Swapping \na=" + x + "  b=" + y);
+
+            int result;
+            sample(10, out result);
+            Console.WriteLine("Out value \na=" + result);
         }
 
         static void Swap(ref int a, ref int b)
@@ -23,6 +29,23 @@ namespace ConsoleApp2
             a = b;
             b = c;
             Console.WriteLine("In Swap Method \na="+a+"  b="+b);
+        }
+
+        static void sample(int z, out int s)
+        {
+             s= z + 1;
+        }
+
+        static int x()
+        {
+            return 1;
+        }
+
+        static void x1(out int s1, out int s2, out int s3)
+        {
+            s1 = 1;
+            s2 = 1;
+            s3 = 1;
         }
     }
 }
