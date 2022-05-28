@@ -52,7 +52,7 @@ namespace ConsoleApp2
     }
     class Class6
     {
-        public static void Main()
+        public static void Main6()
         {
             SampleClass S = new SampleClass();
             S.SetValue(1);
