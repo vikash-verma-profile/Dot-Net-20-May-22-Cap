@@ -8,7 +8,7 @@ namespace ConsoleApp2
     {
         //<return-type> <name-of -function> (<parameters> )
         //body
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             //Console.WriteLine("Please enter a choice what you want to perform \n 1.Add \n 2.Sub ");
             //int choice = Convert.ToInt32(Console.ReadLine());
