@@ -22,20 +22,38 @@ namespace ConsoleApp2
         //fields
 
         public int a;
-    //constructors
-    //destructors
-    //properties
-    //methods
+        //constructors
+        /*
+         * private constructor
+         * default constructor
+         * Parameterzied Constructor
+         * Copy Constructor
+         * static Constructor
+         */
+        //destructors
+        //properties
+        //methods
     }
 
     class student
     {
-        public string Name;
-        public int RollNo;
-        public string ClassName;
+        private string Name;
+        private int RollNo;
+        private string ClassName;
+        private string SchoolName;
 
+        //<access-modifier> <class-name> (<parameters>)
+        public student()
+        {
+            SchoolName = "Kendriya Vidyalaya";
+        }
+
+        //~ <class-name>()
         //get Input from User
+        ~student()
+        {
 
+        }
         //Methods in a class
         public void GetData()
         {
@@ -54,6 +72,7 @@ namespace ConsoleApp2
             Console.WriteLine(Name);
             Console.WriteLine(RollNo);
             Console.WriteLine(ClassName);
+            Console.WriteLine(SchoolName);
         }
     }
 
@@ -75,8 +94,11 @@ namespace ConsoleApp2
             //s1.GetData();
             //s1.PrintData();
 
+            //student s = new student();
+            //s.ClassName = 4;
             //array of objects
-            student[] studentlist = new student[3];
+            
+            student[] studentlist = new student[2];
             for (int i = 0; i < studentlist.Length; i++)
             {
                 student s = new student();
