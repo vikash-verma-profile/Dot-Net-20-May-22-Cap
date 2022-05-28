@@ -78,7 +78,7 @@ namespace ConsoleApp2
 
     class Class5
     {
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             //sample s1 = new sample();
             //s1.a=6;
