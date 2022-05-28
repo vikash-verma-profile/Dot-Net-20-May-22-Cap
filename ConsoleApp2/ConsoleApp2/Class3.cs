@@ -10,7 +10,7 @@ namespace ConsoleApp2
         //Value Type and Reference Types
 
         //out
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             int x=5, y= 6;
             Console.WriteLine("Before Swapping \na=" + x + "  b=" + y);
