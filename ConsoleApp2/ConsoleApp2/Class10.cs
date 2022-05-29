@@ -37,7 +37,7 @@ namespace ConsoleApp2
     class Class10
     {
 
-        public static void Main()
+        public static void Main10()
         {
             Rectangle r = new Rectangle(2.5, 5.2);
             r.PrintArea();
