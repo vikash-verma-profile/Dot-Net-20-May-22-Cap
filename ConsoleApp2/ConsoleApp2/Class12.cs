@@ -36,7 +36,7 @@ namespace ConsoleApp2
     }
     class Class12
     {
-        public static void Main()
+        public static void Main11()
         {
             Person p = new Person();
             p.Greet();
