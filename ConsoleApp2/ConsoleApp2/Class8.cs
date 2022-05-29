@@ -32,7 +32,7 @@ namespace ConsoleApp2
     
     class Class8
     {
-        public static void Main()
+        public static void Main8()
         {
             PropertiesInClass p = new PropertiesInClass(2.5);
             Console.WriteLine("Radius is "+p.radius);
