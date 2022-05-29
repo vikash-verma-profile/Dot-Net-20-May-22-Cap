@@ -53,7 +53,7 @@ namespace ConsoleApp2
          * Methods
          * Constructors
          */
-        public static void Main()
+        public static void Main7()
         {
             //Console.WriteLine(StaticVariable.Topic);
             //StaticVariable.Sample();
