@@ -28,7 +28,7 @@ namespace ConsoleApp3
             int sum = Convert.ToInt32(a) + Convert.ToInt32(b);
             Console.WriteLine(sum);
         }
-        public static void Main()
+        public static void Main2()
         {
             sum();
             sum(1, 2, 3);
