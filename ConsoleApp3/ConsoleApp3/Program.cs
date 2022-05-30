@@ -12,6 +12,10 @@ namespace ConsoleApp3
     abstract class Sample
     {
         public abstract void print();
+        public void show()
+        {
+            Console.WriteLine("Hello World!");
+        }
     }
 
     class Sample2:Sample
@@ -23,9 +27,14 @@ namespace ConsoleApp3
     }
     class Program
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           
+            Sample2 s = new Sample2();
+            s.print();
+            s.show();
+
+      
         }
     }
 }

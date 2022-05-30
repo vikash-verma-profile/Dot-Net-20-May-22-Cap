@@ -25,12 +25,12 @@ namespace ConsoleApp3
             Console.WriteLine("Number 2=" + Number2);
         }
 
-        public static Calculator operator +(Calculator c1, Calculator c2)
+        public static Calculator operator *(Calculator c1, Calculator c2)
         {
             //Calculator c3 = new Calculator();
             //c3.Number1 = c1.Number1 + c2.Number1;
             //c3.Number2 = c1.Number2 + c2.Number2;
-            return new Calculator() { Number1 = c1.Number1 + c2.Number1, Number2 = c1.Number2 + c2.Number2 };
+            return new Calculator() { Number1 = c1.Number1 * c2.Number1, Number2 = c1.Number2 * c2.Number2 };
         }
     }
     class Class2
@@ -40,7 +40,7 @@ namespace ConsoleApp3
             Calculator calculator1 = new Calculator(15,20);
             Calculator calculator2 = new Calculator(20,20);
            // Calculator calculator3 = new Calculator();
-            var s = calculator1 + calculator2;
+            var s = calculator1 * calculator2;
             s.Print();
         }
     }

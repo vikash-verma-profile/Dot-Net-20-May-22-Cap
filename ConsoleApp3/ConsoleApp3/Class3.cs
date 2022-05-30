@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ConsoleApp3
 {
@@ -27,7 +25,7 @@ namespace ConsoleApp3
     class Class3
     {
 
-        public static void Main()
+        public static void Main4()
         {
             DerivedClass d = new DerivedClass();
             d.show();
