@@ -9,6 +9,10 @@ namespace ConsoleApp3
     {
         public int Number1, Number2;
 
+        public Calculator()
+        {
+
+        }
         public Calculator(int num1,int  num2)
         {
             Number1 = num1;
@@ -21,23 +25,23 @@ namespace ConsoleApp3
             Console.WriteLine("Number 2=" + Number2);
         }
 
-        public static Calculator operator +(Calculator c1,Calculator c2)
+        public static Calculator operator +(Calculator c1, Calculator c2)
         {
-            Calculator c3 = new Calculator(0,0);
-            c3.Number1 = c1.Number1 + c2.Number1;
-            c3.Number2 = c1.Number2 + c2.Number2;
-            return c3;
+            //Calculator c3 = new Calculator();
+            //c3.Number1 = c1.Number1 + c2.Number1;
+            //c3.Number2 = c1.Number2 + c2.Number2;
+            return new Calculator() { Number1 = c1.Number1 + c2.Number1, Number2 = c1.Number2 + c2.Number2 };
         }
     }
     class Class2
     {
-        public static void Main()
+        public static void Main3()
         {
             Calculator calculator1 = new Calculator(15,20);
             Calculator calculator2 = new Calculator(20,20);
-            Calculator calculator3 = new Calculator(0, 0);
-            calculator3 = calculator1 + calculator2;
-            calculator3.Print();
+           // Calculator calculator3 = new Calculator();
+            var s = calculator1 + calculator2;
+            s.Print();
         }
     }
 }
