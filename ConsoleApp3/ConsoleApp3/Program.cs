@@ -27,7 +27,7 @@ namespace ConsoleApp3
     }
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
            
             Sample2 s = new Sample2();
