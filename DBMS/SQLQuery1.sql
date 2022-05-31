@@ -13,6 +13,8 @@ insert into sample values(2,'Vikash 2');
 insert into sample values(3,'Vikash 3');
 insert into sample values(4,'Vikash 4');
 
+alter table sample Add salary int;
+alter table sample Drop column salary ;
 delete  from sample where id=1;--deleting rows
 
 update  sample set name='rohit' where id=2;
@@ -52,4 +54,4 @@ select  * from student where FirstName like 'V%'
 --name=vasdlkasd
 select  * from student where FirstName like 'a%'
 
-select CONCAT(FirstName,' ',LastName) as FullName from student
+select CONCAT(FirstName,' ',LastName) as FullName  from student
