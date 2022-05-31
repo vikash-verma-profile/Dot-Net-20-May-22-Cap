@@ -28,6 +28,7 @@ Sql commands
 	-Rollback
 	
 Clauses
+-like
 -where
 -order by
 -in
