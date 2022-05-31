@@ -27,3 +27,28 @@ Sql commands
 	-SavePoint
 	-Rollback
 	
+Clauses
+-where
+-order by
+-in
+-not in
+-group by
+-having
+-between
+
+joins 
+-left joins
+-inner joins
+-right joins
+-outer joins
+
+procedures
+functions
+
+
+
+Create a table for employee
+-employeename
+-id
+-employeeid
+	
