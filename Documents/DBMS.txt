@@ -52,4 +52,31 @@ Create a table for employee
 -employeename
 -id
 -employeeid
+-salary
+
+department
+
+
+student table
+-id
+-roll no
+-first name
+-last name
+-gender
+-classid
+
+student class
+-id
+-classname
+
+select rollNo,full name,gender,classname
+
+create a function that will return empid to you
+
+EMP+ID==>Unique
+
+1==>EMP1
+2==>EMP2
+3==>EMP3
+
 	

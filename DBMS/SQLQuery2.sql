@@ -36,6 +36,13 @@ insert into students values(5,105,'Anjali','Sharma','Female',1)
 select rollno,CONCAT(firstname,' ',lastname) as FullName,gender,sc.classname from students s
 inner join studentclass sc on sc.id=s.classid
 
+/*
+create function <function-name>(<parameters>) returns data-type as
+begin
+//body
+end
+
+*/
 create function GetFullName(@ID int)
 returns varchar(200)  AS 
 Begin
