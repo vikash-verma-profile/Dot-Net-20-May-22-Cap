@@ -50,4 +50,25 @@ Begin
 End
 
 select * from students
-select dbo.GetFullName(2) ;
+select dbo.GetFullName(5) ;
+
+create function GetEmployeeId(@ID int)
+returns varchar(200)  AS 
+Begin
+ return (select CONCAT('EMP',id) as EMPID from employee where id=@ID);
+End
+
+select dbo.GetEmployeeId(2);
+
+
+
+select * from employee
+create proc AddEmployee(@Id int,@Name varchar(200),@DepartmentId int)
+As 
+Begin
+
+insert into employee values(@Id,@Name,@DepartmentId);
+END
+
+
+exec dbo.AddEmployee 5,'xys',1
