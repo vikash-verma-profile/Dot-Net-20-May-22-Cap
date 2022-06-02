@@ -35,3 +35,12 @@ insert into students values(5,105,'Anjali','Sharma','Female',1)
 
 select rollno,CONCAT(firstname,' ',lastname) as FullName,gender,sc.classname from students s
 inner join studentclass sc on sc.id=s.classid
+
+create function GetFullName(@ID int)
+returns varchar(200)  AS 
+Begin
+ return (select CONCAT(firstname,' ',lastname) as FullName from students where id=@ID);
+End
+
+select * from students
+select dbo.GetFullName(2) ;
