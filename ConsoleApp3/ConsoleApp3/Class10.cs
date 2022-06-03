@@ -8,7 +8,7 @@ namespace ConsoleApp3
     //specific type
     class Class10
     {
-        public static void Main()
+        public static void Main11()
         {
 
             List<int> lst = new List<int>();
