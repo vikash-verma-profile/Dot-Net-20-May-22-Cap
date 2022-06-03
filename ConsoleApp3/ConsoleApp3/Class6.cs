@@ -60,7 +60,7 @@ namespace ConsoleApp3
     }
     class Class6
     {
-        public static void Main()
+        public static void Main7()
         {
             Bicycle b = new Bicycle();
             b.changeGear(2);
