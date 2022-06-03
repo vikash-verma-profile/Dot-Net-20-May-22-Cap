@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp3
+namespace ConsoleApp3.Class1
 {
     //overloading
     //functions will have same name but they will very in the number of arguments or type of arguments
@@ -30,6 +30,7 @@ namespace ConsoleApp3
         }
         public static void Main2()
         {
+            ConsoleApp3.Class2.Class1 s = new ConsoleApp3.Class2.Class1();
             sum();
             sum(1, 2, 3);
             sum(1, 2);

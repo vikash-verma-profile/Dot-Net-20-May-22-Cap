@@ -2,10 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp3
+namespace ConsoleApp3.Class2
 {
     //Generic collections
     //specific type
+
+   public class Class1
+    {
+
+    }
     class Class10
     {
         public static void Main11()
