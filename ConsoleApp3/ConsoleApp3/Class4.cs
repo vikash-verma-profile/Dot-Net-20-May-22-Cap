@@ -30,7 +30,7 @@ namespace ConsoleApp3
     }
     class Class4
     {
-        public static void Main()
+        public static void Main5()
         {
             Dog dog = new Dog();
             dog.SetName(Console.ReadLine());
