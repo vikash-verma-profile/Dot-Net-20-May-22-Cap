@@ -94,3 +94,30 @@ functions
 static
 out and ref
 var and dynamic
+
+
+factorial of a number
+5
+5X4X3X2X1
+120
+
+Employee
+-EmployeeName
+-EmployeeId
+-EmployeeGender
+-Salary
+
+
+Collections
+
+--adding and inserting data to the collection
+--Remove items from a collection
+--replace items
+
+Non-Generic        Generic
+
+ArrayList         List
+HashTable		  Dictionary
+SortedList   	  SortedList
+Stack			  Stack
+Queue			  Queue

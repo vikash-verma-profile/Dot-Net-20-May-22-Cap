@@ -41,7 +41,7 @@ namespace ConsoleApp3
     }
     class Class8
     {
-        public static void Main()
+        public static void Main9()
         {
 
         }
