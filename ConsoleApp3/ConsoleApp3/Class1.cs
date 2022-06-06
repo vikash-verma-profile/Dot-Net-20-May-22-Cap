@@ -30,7 +30,7 @@ namespace ConsoleApp3.Class1
         }
         public static void Main2()
         {
-            ConsoleApp3.Class2.Class1 s = new ConsoleApp3.Class2.Class1();
+            //ConsoleApp3.Class20.Class1 = new ConsoleApp3.Class20.Class1();
             sum();
             sum(1, 2, 3);
             sum(1, 2);

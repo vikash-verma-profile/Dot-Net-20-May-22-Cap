@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp3.Class2
+namespace ConsoleApp3.Class20
 {
     //Generic collections
     //specific type

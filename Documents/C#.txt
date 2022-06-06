@@ -126,3 +126,8 @@ Queue			  Queue
 key==>value
 
 Exceptions
+
+try
+catch
+finally
+throw

@@ -1,0 +1,14 @@
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.csproj.AssemblyReference.cache
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.AssemblyInfoInputs.cache
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.AssemblyInfo.cs
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp3.1\ConsoleApp4.exe
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp3.1\ConsoleApp4.deps.json
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp3.1\ConsoleApp4.runtimeconfig.json
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp3.1\ConsoleApp4.runtimeconfig.dev.json
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp3.1\ConsoleApp4.dll
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp3.1\ConsoleApp4.pdb
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.dll
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.pdb
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.genruntimeconfig.cache
