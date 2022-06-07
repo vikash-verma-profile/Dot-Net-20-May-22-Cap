@@ -42,13 +42,13 @@ namespace ConsoleApp6
             //}
             //How we can Update the value
 
-            Console.WriteLine("Pleae enter id of your name which you want to delete");
+            Console.WriteLine("Pleae enter id of your name which you want to update");
             int InsertItem = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter the new name");
             var newName = Console.ReadLine();
-            var DeleteObject = db.Tblsamples.Where(x => x.Id == InsertItem).FirstOrDefault();
-            DeleteObject.Text = newName;
-            db.Tblsamples.Update(DeleteObject);
+            var UpdatteObject = db.Tblsamples.Where(x => x.Id == InsertItem).FirstOrDefault();
+            UpdatteObject.Text = newName;
+            db.Tblsamples.Update(UpdatteObject);
             db.SaveChanges();
 
             foreach (var item in data)
