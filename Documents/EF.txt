@@ -14,4 +14,8 @@ Script-Migration
 Update-Database
 
 
-Scaffold-DbContext "Data Source=DESKTOP-K03RJGO\SQLEXPRESS;Initial Catalog=SampleDb1;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models 
+Scaffold-DbContext "Data Source=DESKTOP-K03RJGO\SQLEXPRESS;Initial Catalog=SampleDb1;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+
+
+
+Scaffold-DbContext "Data Source=DESKTOP-K03RJGO\SQLEXPRESS;Initial Catalog=SampleDB;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models 

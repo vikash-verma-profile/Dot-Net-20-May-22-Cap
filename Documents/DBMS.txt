@@ -79,4 +79,8 @@ EMP+ID==>Unique
 2==>EMP2
 3==>EMP3
 
+
+Primary key==> table column .Primary key cannot have null value and it will not have any duplicate value
+unique key==> unique key can have null value and it will not have any duplicate value
+foriegn key
 	
