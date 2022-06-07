@@ -62,3 +62,4 @@ C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp6\ConsoleApp6\obj\Debug\
 C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp6\ConsoleApp6\obj\Debug\netcoreapp3.1\ConsoleApp6.dll
 C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp6\ConsoleApp6\obj\Debug\netcoreapp3.1\ConsoleApp6.pdb
 C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp6\ConsoleApp6\obj\Debug\netcoreapp3.1\ConsoleApp6.genruntimeconfig.cache
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\ConsoleApp6\ConsoleApp6\obj\Debug\netcoreapp3.1\ConsoleApp6.csproj.AssemblyReference.cache

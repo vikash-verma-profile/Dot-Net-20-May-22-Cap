@@ -19,3 +19,6 @@ Scaffold-DbContext "Data Source=DESKTOP-K03RJGO\SQLEXPRESS;Initial Catalog=Sampl
 
 
 Scaffold-DbContext "Data Source=DESKTOP-K03RJGO\SQLEXPRESS;Initial Catalog=SampleDB;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models 
+
+
+LINQ
