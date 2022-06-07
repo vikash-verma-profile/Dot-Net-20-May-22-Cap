@@ -1,0 +1,17 @@
+
+
+1.Database First Approach:-First Create your database and migrate it to  code
+2.Code First Approach::-First Create code and then migrate it to database
+
+
+Add-Migration
+Drop-Database
+Get-DbContext
+Get-Migration
+Remove-Migration
+Scaffold-DbContext
+Script-Migration
+Update-Database
+
+
+Scaffold-DbContext "Data Source=DESKTOP-K03RJGO\SQLEXPRESS;Initial Catalog=SampleDb1;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models 
