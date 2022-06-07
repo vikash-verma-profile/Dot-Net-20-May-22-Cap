@@ -22,3 +22,12 @@ Scaffold-DbContext "Data Source=DESKTOP-K03RJGO\SQLEXPRESS;Initial Catalog=Sampl
 
 
 LINQ
+
+Select any choice
+1.Add Record
+2.List Record
+3.Update Record
+4.Delete Record
+5.Exit
+
+while()
