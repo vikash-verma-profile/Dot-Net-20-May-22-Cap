@@ -67,3 +67,10 @@ verbs
 -POST--Send data to server
 -DELETE-Delete an item from server
 -PUT-Update any existing item on server
+
+
+employee table
+-ID
+-FirstName
+-LastName
+-Gender
