@@ -31,3 +31,39 @@ Select any choice
 5.Exit
 
 while()
+
+
+content type
+html 
+text 
+json 
+xml
+verbs
+protocol--http/https
+
+
+XML
+<book>
+<bookname>Lets Learn C#</bookname>
+<author>Vikash Verma</author>
+</book>
+
+JSON
+{"bookname":"Lets Learn C#","author":"Vikash Verma"}
+
+
+[
+  {
+    "ProductId": 1,
+    "id": 1,
+    "Producttitle": "delectus aut autem",
+    "ProductDescriptiomn": false
+  }
+]
+
+
+verbs
+-GET--For get data from server
+-POST--Send data to server
+-DELETE-Delete an item from server
+-PUT-Update any existing item on server
