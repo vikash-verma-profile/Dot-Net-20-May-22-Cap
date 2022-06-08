@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApplication2.Models;
 
 namespace WebApplication2.Controllers
 {
@@ -11,9 +12,10 @@ namespace WebApplication2.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
-        public string Get()
+        public List<Tblsample> Get()
         {
-            return "Vikash Verma";
+            SampleDBContext db = new SampleDBContext();
+            return db.Tblsamples.ToList();
         }
     }
 }
