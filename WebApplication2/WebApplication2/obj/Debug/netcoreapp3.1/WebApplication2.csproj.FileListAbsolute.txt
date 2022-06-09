@@ -66,3 +66,4 @@ C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\WebApplication2\WebApplication2\bi
 C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\WebApplication2\WebApplication2\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\WebApplication2\WebApplication2\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\WebApplication2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\WebApplication2.csproj.AssemblyReference.cache
