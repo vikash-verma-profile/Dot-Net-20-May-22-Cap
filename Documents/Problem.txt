@@ -1,0 +1,4 @@
+1.Create a table for storing student data
+2.Create a table for storing courses
+
+3.Create a web api and use swagger for documentation and we should be able to get which student have taken what course
