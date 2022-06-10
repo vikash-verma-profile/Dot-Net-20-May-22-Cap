@@ -1,0 +1,4 @@
+npm install @angular/cli -g 
+ng new first-sample-project
+cd first-sample-project
+ng serve
