@@ -16,10 +16,11 @@ export class AppComponent {
     this.CustomerModel = new Customer();
   }
   EditCustomer(input: Customer) {
-    console.log(input);
+    this.CustomerModel = input;
   }
   DeleteCustomer(input: Customer) {
-    console.log(input);
+    var index=this.CustmerModels.indexOf(input);
+    this.CustmerModels.splice(index,1);
   }
 
 }
