@@ -2,17 +2,12 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-
-import { CustomerComponent } from './customer/customer.component';
-import { SupplierComponent } from './supplier/supplier.component';
-import { HomeComponent } from './home/home.component';
-import { MasterComponent } from './home/master.component';
-import { MainRoutes } from './routing/routing.main';
+import { MainRoutes } from '../routing/routing.main';
+import { HomeComponent } from './home.component';
+import { MasterComponent } from './master.component';
 
 @NgModule({
   declarations: [
-    CustomerComponent,
-    SupplierComponent,
     HomeComponent,
     MasterComponent
   ],
@@ -24,4 +19,4 @@ import { MainRoutes } from './routing/routing.main';
   providers: [],
   bootstrap: [MasterComponent]
 })
-export class AppModule { }
+export class MasterModule { }

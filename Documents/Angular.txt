@@ -28,3 +28,13 @@ export==> for import it's mendatory that same file should be exported
 
 ng generate component <component-name>
 ng g c <component-name>
+
+Root routes
+localhost/customer/
+
+child routes
+/add
+/add
+
+localhost/customer/add
+localhost/supplier/add

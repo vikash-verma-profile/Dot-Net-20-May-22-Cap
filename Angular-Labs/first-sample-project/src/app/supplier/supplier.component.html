@@ -1,1 +1,44 @@
-<p>supplier works!</p>
+<table>
+    <tr>
+        <td>Supplier Name</td>
+        <td>
+            <input [(ngModel)]="SupplierModel.SupplierName" type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>Supplier Code</td>
+        <td>
+            <input [(ngModel)]="SupplierModel.SupplierCode" type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>Supplier Amount</td>
+        <td>
+            <input [(ngModel)]="SupplierModel.SupplierAmount" type="text">
+        </td>
+    </tr>
+    <input type="submit" (click)="AddSupplier()">
+</table>
+
+
+<table border="2">
+    <tr>
+        <td>Supplier Code</td>
+        <td>Supplier Name</td>
+        <td>Supplier Amount</td>
+        <td>Actions</td>
+    </tr>
+    <tr *ngFor="let item of SupplierModels">
+        <td>
+            {{item.SupplierCode}}
+        </td>
+        <td> {{item.SupplierName}}
+        </td>
+        <td> {{item.SupplierAmount}}
+        </td>
+        <td>
+            <input type="button" value="Edit" (click)="EditSupplier(item)" />
+            <input type="button" value="Delete" (click)="DeleteSupplier(item)" />
+        </td>
+    </tr>
+</table>

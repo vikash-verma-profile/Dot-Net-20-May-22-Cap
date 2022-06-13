@@ -5,6 +5,6 @@ import { SupplierComponent } from "../supplier/supplier.component";
 export const MainRoutes= [
     {path:'',component:HomeComponent},
     {path:'home',component:HomeComponent},
-    {path:'customer',component:CustomerComponent},
-    {path:'supplier',component:SupplierComponent}
+    {path:'customer',loadChildren:()=>import('../customer/customer.module').then(m=>m.CustomerModule)},
+    {path:'supplier',loadChildren:()=>import('../supplier/supplier.module').then(m=>m.SupplierModule)}
 ];
