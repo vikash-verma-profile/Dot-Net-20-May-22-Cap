@@ -1,20 +1,27 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { CustomerComponent } from './customer/customer.component';
+import { SupplierComponent } from './supplier/supplier.component';
+import { HomeComponent } from './home/home.component';
+import { MasterComponent } from './home/master.component';
+import { MainRoutes } from './routing/routing.main';
 
 @NgModule({
   declarations: [
-    AppComponent
+    CustomerComponent,
+    SupplierComponent,
+    HomeComponent,
+    MasterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(MainRoutes)
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [MasterComponent]
 })
 export class AppModule { }

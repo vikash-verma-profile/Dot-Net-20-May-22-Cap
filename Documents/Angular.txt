@@ -25,3 +25,6 @@ export==> for import it's mendatory that same file should be exported
 [()]==> 2 way binding
 ()==>one way or event binding
 []==>property binding or one way binding
+
+ng generate component <component-name>
+ng g c <component-name>
