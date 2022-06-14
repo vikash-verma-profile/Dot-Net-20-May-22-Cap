@@ -66,3 +66,4 @@ C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\CustomerApi\CustomerApi\bin\Debug\
 C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\CustomerApi\CustomerApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\CustomerApi\CustomerApi\obj\Debug\netcoreapp3.1\CustomerApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\CustomerApi\CustomerApi\obj\Debug\netcoreapp3.1\CustomerApi.csproj.CopyComplete
+C:\Users\svdsk25\Desktop\Dot-Net-Training-Cap\CustomerApi\CustomerApi\obj\Debug\netcoreapp3.1\CustomerApi.csproj.AssemblyReference.cache
