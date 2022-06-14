@@ -43,6 +43,9 @@ namespace CustomerApi
             app.UseSwaggerUI();
             app.UseHttpsRedirection();
 
+            // for Cors
+
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseRouting();
 
             app.UseAuthorization();

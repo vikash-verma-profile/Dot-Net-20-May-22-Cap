@@ -2,22 +2,23 @@
     <tr>
         <td>Customer Name</td>
         <td>
-            <input [(ngModel)]="CustomerModel.CustomerName" type="text">
+            <input [(ngModel)]="CustomerModel.customerName" type="text">
         </td>
     </tr>
     <tr>
         <td>Customer Code</td>
         <td>
-            <input [(ngModel)]="CustomerModel.CustomerCode" type="text">
+            <input [(ngModel)]="CustomerModel.customerCode" type="text">
         </td>
     </tr>
     <tr>
         <td>Customer Amount</td>
         <td>
-            <input [(ngModel)]="CustomerModel.CustomerAmount" type="text">
+            <input [(ngModel)]="CustomerModel.customerAmount" type="text">
         </td>
     </tr>
     <input type="submit" (click)="AddCustomer()">
+    <input type="button" (click)="getData()" value="getData"/>
 </table>
 <!-- {{CustomerModel.CustomerAmount}}
 {{CustomerModel.CustomerName}}
@@ -32,11 +33,11 @@
     </tr>
     <tr *ngFor="let item of CustmerModels">
         <td>
-            {{item.CustomerCode}}
+            {{item.customerCode}}
         </td>
-        <td> {{item.CustomerName}}
+        <td> {{item.customerName}}
         </td>
-        <td> {{item.CustomerAmount}}
+        <td> {{item.customerAmount}}
         </td>
         <td>
             <input type="button" value="Edit" (click)="EditCustomer(item)" />
