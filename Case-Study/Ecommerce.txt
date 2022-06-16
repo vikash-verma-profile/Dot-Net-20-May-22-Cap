@@ -1,0 +1,16 @@
+1.Create a web api in DOT NET
+2.Create database in Sql server
+3.Create web app in angular
+
+features:-
+
+User Section
+1.User can register and login
+2.He can purchase product through COD
+3.User can see the product
+
+Admin Section
+
+1.Admin can login and add categories
+2.can see all orders placed by the customer and customer details
+3.admin can add products
