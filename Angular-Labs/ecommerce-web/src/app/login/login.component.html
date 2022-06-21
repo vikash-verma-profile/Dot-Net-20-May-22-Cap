@@ -9,16 +9,16 @@
                     <div class="form">
                         <div class="col-md-12">
                             <label class="form-label" for="floatingInput">UserName</label>
-                            <input type="email" class="form-control" id="floatingInput" placeholder="Please enter your email">
+                            <input type="email" class="form-control"   [(ngModel)]="loginUserData.userName" id="floatingInput" placeholder="Please enter your email">
                         </div>
                         <div class="col-md-12">
                             <label class="form-label" for="floatingPassword">Password</label>
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <input type="password" class="form-control" [(ngModel)]="loginUserData.password" id="floatingPassword" placeholder="Password">
                         </div>
                         <div class="col-12">
                             <div class="form-check"></div>
                             </div>
-                        <button class="btn btn-lg btn-primary" type="submit">Sign in</button>
+                        <button class="btn btn-lg btn-primary" (click)="LoginUser()" type="submit">Sign in</button>
                     </div>
                 </div>
             </div>
