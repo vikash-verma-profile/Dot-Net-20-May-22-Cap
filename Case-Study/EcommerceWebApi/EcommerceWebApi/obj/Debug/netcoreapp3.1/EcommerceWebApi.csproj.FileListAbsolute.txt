@@ -67,3 +67,4 @@ C:\Users\LEVEL UP SOLUTIONS 1\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\Ca
 C:\Users\LEVEL UP SOLUTIONS 1\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\Case-Study\EcommerceWebApi\EcommerceWebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\LEVEL UP SOLUTIONS 1\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\Case-Study\EcommerceWebApi\EcommerceWebApi\obj\Debug\netcoreapp3.1\EcommerceWebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\LEVEL UP SOLUTIONS 1\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\Case-Study\EcommerceWebApi\EcommerceWebApi\obj\Debug\netcoreapp3.1\EcommerceWebApi.csproj.AssemblyReference.cache
+C:\Users\LEVEL UP SOLUTIONS 1\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\Case-Study\EcommerceWebApi\EcommerceWebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
