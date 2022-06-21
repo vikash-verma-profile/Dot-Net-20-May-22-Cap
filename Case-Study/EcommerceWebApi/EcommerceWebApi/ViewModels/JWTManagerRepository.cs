@@ -26,6 +26,7 @@ namespace EcommerceWebApi.ViewModels
         }
         public Tokens Authenicate(LoginViewModel registerViewModel, bool IsRegister)
         {
+            var _isAdmin = false;
             if (IsRegister)
             {
                 TblLogin tblLogin = new TblLogin();
@@ -33,6 +34,10 @@ namespace EcommerceWebApi.ViewModels
                 tblLogin.Password = registerViewModel.Password;
                 db.TblLogins.Add(tblLogin);
                 db.SaveChanges();
+            }
+            else
+            {
+                _isAdmin = db.TblLogins.Any(x => x.UserName == registerViewModel.UserName && x.Password == registerViewModel.Password && x.IsAdmin == 1);
             }
             UserRecords = db.TblLogins.ToList().ToDictionary(x => x.UserName, x => x.Password);
             if(!UserRecords.Any(x=>x.Key== registerViewModel.UserName && x.Value== registerViewModel.Password))
@@ -52,7 +57,7 @@ namespace EcommerceWebApi.ViewModels
                 SigningCredentials=new SigningCredentials(new SymmetricSecurityKey(tokenkey),SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
-            return new Tokens { Token = tokenHandler.WriteToken(token) };
+            return new Tokens { Token = tokenHandler.WriteToken(token),IsAdmin=_isAdmin };
         }
     }
 }
