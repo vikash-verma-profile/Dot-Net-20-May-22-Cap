@@ -1,4 +1,5 @@
-﻿using EcommerceWebApi.Models;
+﻿using EcommerceWebApi.Interfaces;
+using EcommerceWebApi.Models;
 using EcommerceWebApi.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,30 +15,37 @@ namespace EcommerceWebApi.Controllers
     public class LoginController : ControllerBase
     {
         EcommerceDBContext db;
-        public LoginController(EcommerceDBContext _db)
+        IJWTMangerRepository iJWTMangerRepository;
+        public LoginController(EcommerceDBContext _db, IJWTMangerRepository _iJWTMangerRepository)
         {
             db = _db;
+            iJWTMangerRepository = _iJWTMangerRepository;
         }
 
         [HttpPost]
         [Route("login")]
-        public bool Login(LoginViewModel loginViewModel)
+        public IActionResult Login(LoginViewModel loginViewModel)
         {
-            if (db.TblLogins.Any(x => x.UserName == loginViewModel.UserName && x.Password == loginViewModel.Password))
+            var token = iJWTMangerRepository.Authenicate(loginViewModel, false);
+            if (token == null)
             {
-                return true;
+                return Unauthorized();
             }
-            return false;
+            return Ok(token);
         }
         [HttpPost]
         [Route("register")]
-        public void Register(RegisterViewModel registerViewModel)
+        public IActionResult Register(RegisterViewModel registerViewModel)
         {
-            TblLogin tblLogin = new TblLogin();
-            tblLogin.UserName = registerViewModel.UserName;
-            tblLogin.Password = registerViewModel.Password;
-            db.TblLogins.Add(tblLogin);
-            db.SaveChanges();
+            LoginViewModel login = new LoginViewModel();
+            login.UserName = registerViewModel.UserName;
+            login.Password = registerViewModel.Password;
+            var token = iJWTMangerRepository.Authenicate(login, true);
+            if (token == null)
+            {
+                return Unauthorized();
+            }
+            return Ok(token);
         }
     }
 }

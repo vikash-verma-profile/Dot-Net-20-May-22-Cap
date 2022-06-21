@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AFnF5FVD85BvtFeOb7UKpX26lzP8cPmMVF435rrvzO/24fXRzA3EPG/wYyZKBWf5/h6Sp26iKXdgSaWiJF594Q==",
+  "dgSpecHash": "sW/oFUtYwqz4pggZaqqaHpCGYC3qmSuY7mqFEuwFL/SP0NiEm7oSB01wYkK6jqTxb9NlsncVfoQ7SPZv2rzdtQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\LEVEL UP SOLUTIONS 1\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LEVEL UP SOLUTIONS 1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\LEVEL UP SOLUTIONS 1\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.24\\microsoft.aspnetcore.authentication.jwtbearer.3.1.24.nupkg.sha512",
     "C:\\Users\\LEVEL UP SOLUTIONS 1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\LEVEL UP SOLUTIONS 1\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\LEVEL UP SOLUTIONS 1\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
