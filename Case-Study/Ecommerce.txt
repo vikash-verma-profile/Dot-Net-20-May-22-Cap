@@ -14,3 +14,5 @@ Admin Section
 1.Admin can login and add categories
 2.can see all orders placed by the customer and customer details
 3.admin can add products
+
+Scaffold-DbContext "Data Source=DESKTOP-K03RJGO\SQLEXPRESS;Initial Catalog=SampleDB;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models 
