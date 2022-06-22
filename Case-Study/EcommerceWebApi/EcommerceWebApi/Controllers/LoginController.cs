@@ -41,6 +41,10 @@ namespace EcommerceWebApi.Controllers
             login.UserName = registerViewModel.UserName;
             login.Password = registerViewModel.Password;
             var token = iJWTMangerRepository.Authenicate(login, true);
+            if(token.IsUserExits)
+            {
+                return Ok("User already exists");
+            }
             if (token == null)
             {
                 return Unauthorized();

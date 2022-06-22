@@ -15,4 +15,4 @@ Admin Section
 2.can see all orders placed by the customer and customer details
 3.admin can add products
 
-Scaffold-DbContext "Data Source=DESKTOP-K03RJGO\SQLEXPRESS;Initial Catalog=SampleDB;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models 
+Scaffold-DbContext "Data Source=DESKTOP-PP0TB7N;Initial Catalog=EcommerceDB;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
