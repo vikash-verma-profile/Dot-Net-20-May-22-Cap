@@ -1,7 +1,7 @@
 <div class="row mt-5">
     <div class="col-md-4 mb-3" *ngFor="let product of products">
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="../../assets/Banner.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../../assets/{{product.productImage}}" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">{{product.productName}}</h5>
                 <p class="card-text">{{product.productDescription}}</p>
