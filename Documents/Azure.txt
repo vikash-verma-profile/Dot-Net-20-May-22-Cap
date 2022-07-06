@@ -66,3 +66,18 @@ create database
 
 cloud storage service
 
+
+Storage
+
+storage account
+A storage account provides unique namespace for azure storage data.That will be accessible from anywhere in the world over http
+
+Azure blob service
+Azure Disk Service
+Azuer File Service
+
+
+All services==>storage==>storageaccount==>container==>place a file and use url to access the image
+
+
+

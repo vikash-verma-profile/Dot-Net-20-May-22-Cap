@@ -17,3 +17,12 @@ C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\Upl
 C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\obj\Debug\netcoreapp3.1\UploadFIleServer.dll
 C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\obj\Debug\netcoreapp3.1\UploadFIleServer.pdb
 C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\obj\Debug\netcoreapp3.1\UploadFIleServer.genruntimeconfig.cache
+C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\bin\Debug\netcoreapp3.1\System.IO.Hashing.dll
+C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\bin\Debug\netcoreapp3.1\System.Memory.Data.dll
+C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\om\Desktop\Dot-Net-Trainings\Dot-Net-20-May-22-Cap\UploadFIleServer\UploadFIleServer\obj\Debug\netcoreapp3.1\UploadFIleServer.csproj.CopyComplete
