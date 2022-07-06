@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="levelupsolutions551" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\om\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

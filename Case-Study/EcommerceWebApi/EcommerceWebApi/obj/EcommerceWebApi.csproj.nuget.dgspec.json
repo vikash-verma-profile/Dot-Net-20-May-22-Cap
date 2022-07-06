@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LEVEL UP SOLUTIONS 1\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj": {}
+    "C:\\Users\\om\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LEVEL UP SOLUTIONS 1\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj": {
+    "C:\\Users\\om\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LEVEL UP SOLUTIONS 1\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\om\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj",
         "projectName": "EcommerceWebApi",
-        "projectPath": "C:\\Users\\LEVEL UP SOLUTIONS 1\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj",
-        "packagesPath": "C:\\Users\\LEVEL UP SOLUTIONS 1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LEVEL UP SOLUTIONS 1\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\obj\\",
+        "projectPath": "C:\\Users\\om\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj",
+        "packagesPath": "C:\\Users\\om\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\om\\Desktop\\Dot-Net-Trainings\\Dot-Net-20-May-22-Cap\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LEVEL UP SOLUTIONS 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\om\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
         }
       }
     }

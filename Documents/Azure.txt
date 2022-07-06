@@ -1,0 +1,68 @@
+Azure is a cloud service provider
+
+cloud?????
+
+cloud vendors
+
+1.azure--Microsoft
+2.aws--amazon
+3.GCP-Google
+
+4.alibaba
+5.IBM cloud
+6.Oracle cloud
+
+azure is a set of cloud servics that help organisations to meet their current and future business challanges
+
+cloud vs on-perm
+
+1.lower operating cost
+
+azure services
+
+1.compute
+2.Networking
+3.Storage
+4.Mobile
+5.Databases
+6.we
+7.IOT
+8.Big Databases
+9.AI
+10.Devops
+
+1.Compute:-
+1a)Azure virtual machine
+
+
+ROOT account
+
+subscriptions
+resource groups
+resources
+
+
+cloud computing deployment models
+
+1.Public cloud services that are offered over the public internet and available to anyone who want to purchase them. services will be maintained by cloud provider but delivered on the internet.
+
+2.Private Cloud==> a private cloud consists of computing resources used exclusively by the user from one organisation.
+
+
+3.Hybrid Cloud => Hybrid cloud is a computing environment that combines public and private cloud
+
+
+
+Cloud Service Models:-
+
+
+1.IAAS==> Infrastructure as a Service
+2.PAAS==> Platform as a Service
+3.SAAS==> Software as a Service
+
+host and web api
+host an angular app
+create database
+
+cloud storage service
+
