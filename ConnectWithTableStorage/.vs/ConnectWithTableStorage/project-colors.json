@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cf322468-4b30-4760-b8a8-eb3ffb557d02": {
+      "ProjectGuid": "cf322468-4b30-4760-b8a8-eb3ffb557d02",
+      "DisplayName": "ConnectWithTableStorage",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
